@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Collapse from "react-bootstrap/Collapse";
 
 import { useState } from "react";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 // import Dropdown from 'react-bootstrap/Dropdown';
 
 import Link from "next/link";
@@ -12,15 +13,7 @@ import Link from "next/link";
 
 export default function Navibar() {
 
-    const [isShown, setIsShown] = useState(false);
-
-    function showDropDown() {
-        setIsShown(!isShown);
-    }
-
-    function isShowing(state) {
-        if (!state) return "noDisplay";
-    }
+    const [open, setOpen] = useState(false);
 
     return(
         <section>
@@ -32,23 +25,25 @@ export default function Navibar() {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto ms-auto">
                                 <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Home</Nav.Link>
-                                {/* <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Services</Nav.Link> */}
-                                {/* <Nav.Link className="text-black navPadFix" style={{display: "flex", alignItems: "center"}} href="">Industries</Nav.Link> */}
-                                
-                                <Nav className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
-                                    <button className="" type="button" onClick={showDropDown}>Services</button>
-                                    <div className={"dropDownMenuShowed " + isShowing(isShown)}>
-                                        <a>hello</a>
-                                        <a>bro</a>
-                                    </div>
-                                </Nav>
-                                {/* <NavDropdown className="centerItemV navPadFix navPosFix" title="Services" renderMenuOnMount={true}>
+                                <NavDropdown className="centerItemV navPadFix navPosFix" title="Services" id="dropdownNav">
                                     <NavDropdown.Item className="dropDownElements" href="">Action</NavDropdown.Item>
                                     <NavDropdown.Item className="dropDownElements" href="">Another action</NavDropdown.Item>
                                     <NavDropdown.Item className="dropDownElements" href="">Something</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item className="dropDownElements" href="">Separated link</NavDropdown.Item>
-                                </NavDropdown> */}
+                                </NavDropdown>
+                                <Nav.Link className="navPadFix navPosFix" href="" id="collapseMobile">
+                                    <button className={"servciesCollapseButton"} aria-controls="example-collapse-text" aria-expanded={open} onClick={() => setOpen(!open)}>
+                                        Services
+                                    </button>
+                                </Nav.Link>
+                                <Collapse in={open} id="collapseMobile">
+                                    <div className="collapseTextMobile" id="example-collapse-text">
+                                        <a href="">Web Development</a>
+                                        <a href="">UI/UX Design</a>
+                                        <a href="">Marketing</a>
+                                    </div>
+                                </Collapse>
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{textDecoration: "none", color: "black", display: "flex", alignItems: "center"}}>About Us </Nav.Link>
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{paddingBottom: "10px"}}>Contact Us</Nav.Link>
                             </Nav>

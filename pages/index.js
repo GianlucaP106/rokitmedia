@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import Services from "../components/Home/Services";
+
 export default function Home() {
   return (
     <div>
@@ -10,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Services />
       </main>
     </div>
   )
