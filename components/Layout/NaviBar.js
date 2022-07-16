@@ -1,11 +1,26 @@
-import { Navbar, NavDropdown, Nav, Container } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+import { useState } from "react";
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Dropdown from 'react-bootstrap/Dropdown';
+
 import Link from "next/link";
 // import goingvoipLogo from "/goingvoipLogo.png";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
 
 export default function Navibar() {
+
+    const [isShown, setIsShown] = useState(false);
+
+    function showDropDown() {
+        setIsShown(!isShown);
+    }
+
+    function isShowing(state) {
+        if (!state) return "noDisplay";
+    }
 
     return(
         <section>
@@ -19,18 +34,26 @@ export default function Navibar() {
                                 <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Home</Nav.Link>
                                 {/* <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Services</Nav.Link> */}
                                 {/* <Nav.Link className="text-black navPadFix" style={{display: "flex", alignItems: "center"}} href="">Industries</Nav.Link> */}
-                                <NavDropdown className="centerItemV navPadFix navPosFix" title="Services" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item className="dropDownElements" href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item className="dropDownElements" href="#action/3.2">Another action</NavDropdown.Item>
-                                    <NavDropdown.Item className="dropDownElements" href="#action/3.3">Something</NavDropdown.Item>
+                                
+                                <Nav className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
+                                    <button className="" type="button" onClick={showDropDown}>Services</button>
+                                    <div className={"dropDownMenuShowed " + isShowing(isShown)}>
+                                        <a>hello</a>
+                                        <a>bro</a>
+                                    </div>
+                                </Nav>
+                                {/* <NavDropdown className="centerItemV navPadFix navPosFix" title="Services" renderMenuOnMount={true}>
+                                    <NavDropdown.Item className="dropDownElements" href="">Action</NavDropdown.Item>
+                                    <NavDropdown.Item className="dropDownElements" href="">Another action</NavDropdown.Item>
+                                    <NavDropdown.Item className="dropDownElements" href="">Something</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item className="dropDownElements" href="#action/3.4">Separated link</NavDropdown.Item>
-                                </NavDropdown>
+                                    <NavDropdown.Item className="dropDownElements" href="">Separated link</NavDropdown.Item>
+                                </NavDropdown> */}
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{textDecoration: "none", color: "black", display: "flex", alignItems: "center"}}>About Us </Nav.Link>
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{paddingBottom: "10px"}}>Contact Us</Nav.Link>
                             </Nav>
                             <Nav>
-                                <Nav.Link href="#deets"><button className="purpleButton"><p style={{margin: "0"}} className="fontSize24 text-white">Get Started</p></button></Nav.Link>
+                                <Nav.Link href=""><button className="purpleButton"><p style={{margin: "0"}} className="fontSize24 text-white">Get Started</p></button></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
