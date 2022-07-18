@@ -6,6 +6,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: ourFont;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+@font-face {
+  font-family: ourFontLight;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}
+
 .row {
   width: 100%;
   padding-left: 12px;
@@ -41,6 +50,9 @@ body {
   background-color: #925FF9;
   width: 210px;
   height: 50px;
+}
+.ourPurple {
+  color: #925FF9;
 }
 .centerText {
   text-align: center;

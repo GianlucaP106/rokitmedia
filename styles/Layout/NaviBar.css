@@ -22,6 +22,15 @@
   margin-left: 10px;
 }
 
+.ourNavbar {
+  background-color: #0A0909;
+}
+#dropdownNav{ 
+  color: white;
+}
+
+
+
 @media only screen and (min-width: 992px) {
   /* .navPosFix {
     position: relative;

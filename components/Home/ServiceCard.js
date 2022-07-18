@@ -5,12 +5,14 @@ export default function ServiceCard(props) {
         <div className="serviceCard">
             <div className="row">
                 <div className="col centerItem">
-                    <img src={props.imgLink} alt={props.imgAlt} />
+                    <div className="servicesRow">
+                        <img src={props.imgLink} alt={props.imgAlt} />
+                    </div>
                 </div>
             </div>
             <div className="row" style={{paddingBottom: "20px", paddingTop: "20px"}}>
                 <div className="col centerText">
-                    <h2 className="fontSize32">{props.title}</h2>
+                    <h2 className="fontSize32 text-white">{props.title}</h2>
                 </div>
             </div>
             <div className="row" style={{margin: "0", paddingLeft: "0"}}>
