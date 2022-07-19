@@ -9,14 +9,14 @@ export default function Services() {
                 </div>
             </div> */}
             <div className="row" style={{paddingTop: "100px"}}>
-                <div className="col-md centerItem">
-                    <ServiceCard imgLink="/assets/images/webdevServices.png" imgAlt="Web Dev image" title={"Web Development"} />
+                <div className="col-md centerItem serviceCardContainer">
+                    <ServiceCard imgLink="/assets/images/webdevServices.png" imgAlt="Web Dev image" title={"Web Development"} pageLink={"/web-development"} />
                 </div>
-                <div className="col-md centerItem">
-                    <ServiceCard imgLink="/assets/images/uixServices.png" imgAlt="UI/UX design image" title={"UI/UX Design"} />
+                <div className="col-md centerItem serviceCardContainer">
+                    <ServiceCard imgLink="/assets/images/uixServices.png" imgAlt="UI/UX design image" title={"UI/UX Design"} pageLink={""} />
                 </div>
-                <div className="col-md centerItem">
-                    <ServiceCard imgLink="/assets/images/marketingService.png" imgAlt="Marketing Image" title={"Digital Marketing"} />
+                <div className="col-md centerItem serviceCardContainer2">
+                    <ServiceCard imgLink="/assets/images/marketingService.png" imgAlt="Marketing Image" title={"Digital Marketing"} pageLink={""} />
                 </div>
             </div>
             <div className="row" style={{paddingTop: "150px"}}>
@@ -39,7 +39,7 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-            <div className="row" style={{paddingTop: "25px"}}>
+            <div className="row" style={{paddingTop: "50px"}}>
                 <div className="col centerItem">
                     <button className="purpleButton ourFont fontSize24 text-white" style={{width: "405px", height: "100px"}}>Request a quote today!</button>
                 </div>

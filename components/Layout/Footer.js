@@ -35,7 +35,7 @@ export default function Footer() {
                 <div className="col-3" id="footerCol"></div>
             </div>
             <div className="row footerRowTop" style={{paddingBottom: "50px"}}>
-                <div className="col footerRokitCol footerBorderBottom">
+                <div className="col footerRokitCol footerBorderBottom" style={{paddingBottom: "20px="}}>
                     <div className="footerRokit">
                         <img src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
                     </div>

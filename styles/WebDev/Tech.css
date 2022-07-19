@@ -1,0 +1,26 @@
+.techSection {
+    background-color: #0A0909;
+}
+
+.techImg {
+    padding-top: 10px;
+}
+.figmaImg {
+    padding-top: 10px;   
+}
+
+@media only screen and (max-width: 768px) {
+    .techTitle {
+        font-size: 24px;
+    }
+    .techText {
+        font-size: 16px;
+    }
+    .techImg {
+        width: 100px;
+        padding-top: 20px;
+    }
+    .figmaImg {
+        width: 70px;
+    }
+}

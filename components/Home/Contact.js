@@ -10,7 +10,7 @@ export default function Contact() {
                     <p className="ourFont fontSize24 text-white">The search ends here - all your design and marketing needs in one place. Let us know about your upcoming projects!</p>
                 </div>
             </div>
-            <div className="row" style={{paddingTop: "60px"}}>
+            <div className="row" style={{paddingTop: "100px", paddingBottom: "60px"}}>
                 <div className="col-lg-6 centerItemV">
                     <div>
                         <div className="row">

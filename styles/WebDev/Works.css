@@ -1,0 +1,14 @@
+
+
+.worksImg {
+    width: 200px;
+}
+
+.worksColLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+.worksColRight {
+    display: flex;
+    justify-content: flex-end;
+}

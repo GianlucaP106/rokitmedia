@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap');
 
 html,
 body {
@@ -12,11 +12,19 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
 }
+.ourFontBoldX {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
 .ourFontBold {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 .noDisplay {
   display: none;
+}
+.ourPurple {
+  color: #925FF9;
 }
 
 .row {
@@ -52,6 +60,10 @@ body {
 }
 .col-lg-6 {
   padding-right: 0;
+}
+
+.backColor {
+  background-color: #0A0909;
 }
 
 .purpleButton {

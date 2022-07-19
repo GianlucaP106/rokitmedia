@@ -3,7 +3,7 @@
 export default function Process() {
     return(
         <section className="processSection">
-            <div className="row" style={{paddingTop: '60px'}}>
+            <div className="row" style={{paddingTop: '100px'}}>
                 <div className="col">
                     <h1 className="ourFontBold fontSize40 text-white">Our Proven Process</h1>
                 </div>
@@ -46,7 +46,7 @@ export default function Process() {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row" style={{paddingTop: "50px"}}>
                 <div className="col centerItem">
                     <img src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
                 </div>

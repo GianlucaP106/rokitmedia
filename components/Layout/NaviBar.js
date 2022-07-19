@@ -26,6 +26,7 @@ export default function Navibar() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto ms-auto">
                             <Nav.Link className="text-white navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Home</Nav.Link>
+                            
                             <NavDropdown className="centerItemV navPadFix navPosFix" title="Services" id="dropdownNav">
                                 <NavDropdown.Item className="dropDownElements" href="">Action</NavDropdown.Item>
                                 <NavDropdown.Item className="dropDownElements" href="">Another action</NavDropdown.Item>
@@ -33,6 +34,7 @@ export default function Navibar() {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item className="dropDownElements" href="">Separated link</NavDropdown.Item>
                             </NavDropdown>
+
                             <Nav.Link className="navPadFix navPosFix" href="" id="collapseMobile">
                                 <button className={"servciesCollapseButton"} style={{color: "white"}} aria-controls="example-collapse-text" aria-expanded={open} onClick={() => setOpen(!open)}>
                                     Services
@@ -45,6 +47,7 @@ export default function Navibar() {
                                     <a href="">Marketing</a>
                                 </div>
                             </Collapse>
+
                             <Nav.Link className="text-white navPadFix navPosFix" href="" style={{textDecoration: "none", color: "black", display: "flex", alignItems: "center"}}>About Us </Nav.Link>
                             <Nav.Link className="text-white navPadFix navPosFix" href="" style={{paddingBottom: "10px"}}>Contact Us</Nav.Link>
                         </Nav>

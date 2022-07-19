@@ -17,3 +17,15 @@
 .servicesSection {
     background-color: #0A0909;
 }
+
+@media only screen and (max-width: 1262px) {
+    .serviceCardContainer2 {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .serviceCardContainer {
+        padding-top: 60px;
+    }
+}
