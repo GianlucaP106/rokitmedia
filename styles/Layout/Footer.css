@@ -1,0 +1,67 @@
+.footerSection {
+    background-color: #0A0909;
+}
+
+.footerRowTop {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.footerRowBottom {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.footerLogo {
+    width: 250px;
+}
+.footerBorderTop {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.footerBorderBottom {
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+    .footerRokit {
+        position: relative;
+        bottom: 50px;
+    }
+    .footerRokitCol {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footerRokitCol {
+        display: flex;
+        justify-content: center;
+    }
+    .footerLogo {
+        width: 150px;
+    }
+    #footerCol {
+        display: none;
+    }
+    .footerRowTop {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .footerRowBottom {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .footerSizeMobile {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerSizeMobile {
+        font-size: 12px;
+    }
+    #questionsFooter {
+        display: none;
+    }
+}

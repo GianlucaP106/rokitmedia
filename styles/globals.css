@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 html,
 body {
   padding: 0;
@@ -6,13 +8,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-@font-face {
-  font-family: ourFont;
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.ourFont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
-@font-face {
-  font-family: ourFontLight;
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.ourFontBold {
+  font-family: 'Montserrat', sans-serif;
+}
+.noDisplay {
+  display: none;
 }
 
 .row {
@@ -20,6 +24,9 @@ body {
   padding-left: 12px;
 }
 .col {
+  padding-right: 0;
+}
+.col-6 {
   padding-right: 0;
 }
 .col-md-6 {
@@ -41,6 +48,9 @@ body {
   padding-right: 0;
 }
 .col-xl {
+  padding-right: 0;
+}
+.col-lg-6 {
   padding-right: 0;
 }
 

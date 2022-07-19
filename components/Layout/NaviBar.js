@@ -17,8 +17,9 @@ export default function Navibar() {
 
     return(
         
-        <div className="ourNavbar" style={{boxShadow: "0px 4px 2px 0px #c6c6c6"}}>
-            <Navbar collapseOnSelect expand="lg" className="bgColor" variant="dark">
+        <div className="ourNavbar">
+            <Navbar fixed="top" collapseOnSelect expand="lg" className="ourNavbar" variant="dark" > 
+            {/* //style={{boxShadow: "0px 4px 2px 0px #c6c6c6"}} */}
                 <Container>
                     <Navbar.Brand href="/"><img src="/assets/logos/rokitLogo.png" className="" alt="" height="60" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

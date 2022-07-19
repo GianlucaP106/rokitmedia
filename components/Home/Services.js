@@ -19,13 +19,13 @@ export default function Services() {
                     <ServiceCard imgLink="/assets/images/marketingService.png" imgAlt="Marketing Image" title={"Digital Marketing"} />
                 </div>
             </div>
-            <div className="row" style={{paddingTop: "100px"}}>
+            <div className="row" style={{paddingTop: "150px"}}>
                 <div className="col-md-6 centerItem">
                     <img className="displayImg" src="/assets/display/productivity.png" alt="web development and design image"/>
                 </div>
                 <div className="col-md-6">
                     <div style={{paddingLeft: "12px"}}>
-                        <h3 className="ourFont fontSize40 text-white">Why Choose Rokit Media</h3>
+                        <h3 className="ourFontBold fontSize40 text-white">Why Choose Rokit Media</h3>
                         <p className="ourFont fontSize24 text-white">Our team consists of professional web/graphic designers, software engineers, and marketers that reflect Rokit Media’s core values:</p>
                         <ul className="ourFont fontSize24 text-white">
                             <li >Team Player</li>
