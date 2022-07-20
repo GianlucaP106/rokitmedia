@@ -13,7 +13,7 @@ export default function Services() {
                     <ServiceCard imgLink="/assets/images/webdevServices.png" imgAlt="Web Dev image" title={"Web Development"} pageLink={"/web-development"} />
                 </div>
                 <div className="col-md centerItem serviceCardContainer">
-                    <ServiceCard imgLink="/assets/images/uixServices.png" imgAlt="UI/UX design image" title={"UI/UX Design"} pageLink={""} />
+                    <ServiceCard imgLink="/assets/images/uixServices.png" imgAlt="UI/UX design image" title={"UI/UX Design"} pageLink={"/graphic-design"} />
                 </div>
                 <div className="col-md centerItem serviceCardContainer2">
                     <ServiceCard imgLink="/assets/images/marketingService.png" imgAlt="Marketing Image" title={"Digital Marketing"} pageLink={""} />

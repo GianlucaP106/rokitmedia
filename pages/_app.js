@@ -13,6 +13,7 @@ import "../styles/ContactForm.css";
 import "../styles/WebDev/Title.css";
 import "../styles/WebDev/Tech.css";
 import "../styles/WebDev/Works.css";
+import "../styles/Design/Title.css";
 
 import Layout from "../components/Layout/Layout";
 
