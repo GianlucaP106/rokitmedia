@@ -20,7 +20,7 @@ export default function Services() {
                 </div>
             </div>
             <div className="row" style={{paddingTop: "150px"}}>
-                <div className="col-md-6 centerItem">
+                <div className="col-md-6 centerItem centerItemV">
                     <img className="displayImg" src="/assets/display/productivity.png" alt="web development and design image"/>
                 </div>
                 <div className="col-md-6">
@@ -33,7 +33,7 @@ export default function Services() {
                             <li>Customer Satisfaction</li>
                         </ul>
                         <div className="centerItem" style={{width: '100%', paddingTop: "15px", paddingBottom: "30px"}}>
-                            <img src="/assets/icons/rokitIcon.png" /> 
+                            <img className="rokitIcon" src="/assets/icons/rokitIcon.png" /> 
                         </div>
                         <p className="ourFont fontSize24 text-white">Rokit Media delivers all web development, graphic design, logo designs, digital marketing, social media marketing (Instagram marketing, Facebook marketing, LinkedIn marketing, etc.), SEO, Google Ads, and promotional videos in a professional and timely manner.</p>
                     </div>

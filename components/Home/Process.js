@@ -48,7 +48,7 @@ export default function Process() {
             </div>
             <div className="row" style={{paddingTop: "50px"}}>
                 <div className="col centerItem">
-                    <img src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
+                    <img className="rokitIcon" src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
                 </div>
             </div>
         </section>

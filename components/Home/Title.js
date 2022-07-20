@@ -11,7 +11,7 @@ export default function Title() {
                         <button className="purpleButton text-white fontSize24">Get Started!</button>
                     </div>
                 </div>
-                <div className="col-md-6 centerItem">
+                <div className="col-md-6 centerItem centerItemV">
                     <img className="displayImg" src="/assets/display/homeImg.png" alt="rokit media web development"/>
                 </div>
             </div>

@@ -74,7 +74,7 @@ export default function Tech() {
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText" style={{padding: "10px", paddingLeft: "30px"}}>
                                     <img className="techImg" src="/assets/logos/vercelLogo.png" alt="vercel logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Vercel</p>
                                 </div>
@@ -88,8 +88,8 @@ export default function Tech() {
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
-                                    <img className="techImg" src="/assets/logos/bootstrapLogo.png" alt="bootstrap logo"/>
+                                <div className="centerText" style={{padding: "10px", paddingLeft: "30px"}}>
+                                    <img className="bootstrapImg" src="/assets/logos/bootstrapLogo.svg" alt="bootstrap logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>BootStrap</p>
                                 </div>
                             </div>
@@ -97,13 +97,13 @@ export default function Tech() {
                         <div className="row">
                             <div className="col-md-6 centerText">
                                 <div className="centerText" style={{padding: "10px"}}>
-                                    <img className="techImg" src="/assets/logos/nodejsLogo.png" alt="node.js logo"/>
+                                    <img className="techImg" src="/assets/logos/nodejsLogo.svg" alt="node.js logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Node.js</p>
                                 </div>
                             </div>               
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
-                                    <img className="techImg" src="/assets/logos/mongodbLogo.png" alt="mongodb logo"/>
+                                <div className="centerText" style={{padding: "10px", paddingLeft: "30px"}}>
+                                    <img className="mongoDBImg" src="/assets/logos/mongodbLogo.png" alt="mongodb logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>MongoDB</p>
                                 </div>
                             </div>               

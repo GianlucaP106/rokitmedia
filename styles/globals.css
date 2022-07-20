@@ -61,9 +61,18 @@ body {
 .col-lg-6 {
   padding-right: 0;
 }
+.col-sm-3 {
+  padding-right: 0;
+}
+.col-sm-6 {
+  padding-right: 0;
+}
 
 .backColor {
   background-color: #0A0909;
+}
+.rokitIcon {
+  width: 100px;
 }
 
 .purpleButton {

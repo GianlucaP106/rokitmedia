@@ -4,12 +4,22 @@
 
 .techImg {
     padding-top: 10px;
+    width: 100px;
 }
 .figmaImg {
-    padding-top: 10px;   
+    padding-top: 10px;  
+    width: 65px;
+}
+.mongoDBImg {
+    padding-top: 10px;
+    width: 50px;
+}
+.bootstrapImg {
+    padding-top: 10px;
+    width: 110px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .techTitle {
         font-size: 24px;
     }
@@ -22,5 +32,8 @@
     }
     .figmaImg {
         width: 70px;
+    }
+    .mongoDBImg {
+        width: 50px;
     }
 }

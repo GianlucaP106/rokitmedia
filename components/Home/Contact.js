@@ -23,7 +23,7 @@ export default function Contact() {
                         </div>
                         <div className="row" style={{paddingTop: "60px"}}>
                             <div className="col" style={{paddingLeft: "60px"}}>
-                                <img src="/assets/icons/rokitIcon.png" alt="rokit media"/>
+                                <img className="rokitIcon" src="/assets/icons/rokitIcon.png" alt="rokit media"/>
                             </div>
                         </div>
                     </div>

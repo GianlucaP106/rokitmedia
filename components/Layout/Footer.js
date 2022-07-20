@@ -27,9 +27,9 @@ export default function Footer() {
                     <p className="ourFontBold fontSize20 text-white">About</p>
                     <p className="ourFontBold fontSize20 text-white">Contact Us</p>
                     <div className="centerItem" style={{paddingTop: "20px"}}>
-                        <img src="/assets/icons/instagramIcon.png" alt="instagram icon" />
-                        <img style={{marginLeft: "10px", marginRight: "10px"}} src="/assets/icons/linkedinIcon.png" alt="linkedin icon"/>
-                        <img src="/assets/icons/facebookIcon.png"  alt="facebook icon"/>
+                        <img className="socialMediaIcon" src="/assets/icons/instagramIcon.png" alt="instagram icon" />
+                        <img className="socialMediaIcon" style={{marginLeft: "10px", marginRight: "10px"}} src="/assets/icons/linkedinIcon.png" alt="linkedin icon"/>
+                        <img className="socialMediaIcon" src="/assets/icons/facebookIcon.png"  alt="facebook icon"/>
                     </div>
                 </div>
                 <div className="col-3" id="footerCol"></div>
@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="row footerRowTop" style={{paddingBottom: "50px"}}>
                 <div className="col footerRokitCol footerBorderBottom" style={{paddingBottom: "20px="}}>
                     <div className="footerRokit">
-                        <img src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
+                        <img className="rokitIcon" src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
                     </div>
                 </div>
             </div>

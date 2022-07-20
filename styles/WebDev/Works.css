@@ -2,7 +2,10 @@
 
 .worksImg {
     width: 200px;
+    height: 200px;
 }
+
+
 
 .worksColLeft {
     display: flex;
@@ -11,4 +14,77 @@
 .worksColRight {
     display: flex;
     justify-content: flex-end;
+}
+
+.workContainer {
+    padding: 60px;
+}
+.workRow {
+    padding-top: 60px;
+}
+.workTextPos {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.workButton {
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.rokitIconWorkContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 768px) {
+    .rokitIconWork {
+        margin-right: 70px;   
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .rokitIconWorkContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .rokitIconWork {
+        margin-top: 60px;   
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .workButton {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .workButton {
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .workContainer {
+        padding: 10px;
+    }
+    .worksColLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .worksColRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .workTextPos {
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    #orderFix1{ order: 2; }
+    #orderFix2{ order: 1; }
+    .worksImg {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
 }
