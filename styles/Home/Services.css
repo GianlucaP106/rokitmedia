@@ -13,6 +13,16 @@
 .servicesRow {
     padding-top: 30px;
 }
+.servicesRowScroll {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition:  500ms ease-in-out;
+}
+
+.servicesRowScrollActive {
+    opacity: 1;
+    transform: translateY(-100px)
+}
 
 .servicesSection {
     background-color: #0A0909;

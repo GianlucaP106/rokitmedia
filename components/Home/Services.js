@@ -1,6 +1,27 @@
 import ServiceCard from "./ServiceCard";
 
+import { useEffect } from "react";
+
 export default function Services() {
+
+    function handleScroll() {
+        const reveal = document.getElementById("serviceCardScroll");
+
+        const wHeight = window.innerHeight;
+        const revealTop = reveal.getBoundingClientRect().top;
+        const point = 300;
+
+        if (revealTop < wHeight - point) {
+            reveal.classList.add("servicesRowScrollActive")
+        }else {
+            reveal.classList.remove("servicesRowScrollActive");
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+    }, []);
+
     return(
         <section className="servicesSection">
             {/* <div className="row">
@@ -8,7 +29,7 @@ export default function Services() {
                     <h1 className="fontSize32">Services Offered</h1>
                 </div>
             </div> */}
-            <div className="row" style={{paddingTop: "100px"}}>
+            <div className="row servicesRowScroll" style={{paddingTop: "200px"}} id="serviceCardScroll">
                 <div className="col-md centerItem serviceCardContainer">
                     <ServiceCard imgLink="/assets/images/webdevServices.png" imgAlt="Web Dev image" title={"Web Development"} pageLink={"/web-development"} />
                 </div>
