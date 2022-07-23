@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export default function Services() {
 
     function handleScroll() {
+        console.log("scrolled1");
         const reveal = document.getElementById("serviceCardScroll");
 
         const wHeight = window.innerHeight;

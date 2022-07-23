@@ -8,6 +8,18 @@
     align-items: center;
     text-align: center;
 }
+.rokitAnimation {
+    /* opacity: 0; */
+    transition-property: opacity, display;
+    transition: 500ms ease-in-out;
+    transform: translateX(-500%);
+}
+
+.rokitAnimationActive {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
 
 .processImg {
     width: 250px;

@@ -1,6 +1,26 @@
-
+import { useEffect } from "react";
 
 export default function Process() {
+
+    function handleScroll1() {
+        console.log("scrolled2");
+        const reveal = document.getElementById("rokitAnimation");
+
+        const wHeight = window.innerHeight;
+        const revealTop = reveal.getBoundingClientRect().top;
+        const point = 150;
+
+        if (revealTop < wHeight - point) {
+            reveal.classList.add("rokitAnimationActive");
+        }else {
+            reveal.classList.remove("rokitAnimationActive");
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll1)
+    },[]);
+
     return(
         <section className="processSection">
             <div className="row" style={{paddingTop: '100px'}}>
@@ -48,7 +68,7 @@ export default function Process() {
             </div>
             <div className="row" style={{paddingTop: "50px"}}>
                 <div className="col centerItem">
-                    <img className="rokitIcon" src="/assets/icons/rokitIcon.png" alt="rokit media icon"/>
+                    <img className="rokitIcon rokitAnimation" src="/assets/icons/rokitIcon.png" alt="rokit media icon" id="rokitAnimation"/>
                 </div>
             </div>
         </section>
