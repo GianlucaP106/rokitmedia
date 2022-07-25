@@ -2,6 +2,15 @@
     background-color: #0A0909;
 }
 
+.techContainer {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .techImg {
     padding-top: 10px;
     width: 100px;
@@ -24,6 +33,9 @@
 }
 .bootstrapImg {
     padding-top: 10px;
+    width: 110px;
+}
+.webflowImg {
     width: 110px;
 }
 
@@ -56,5 +68,9 @@
     }
     .mongoDBImg {
         width: 50px;
+    }
+    .techContainer {
+        width: 160px;
+        height: 160px;
     }
 }

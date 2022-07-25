@@ -23,13 +23,13 @@ export default function Tech() {
                         </div>
                         <div className="row" style={{paddingTop: "50px"}}>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="figmaImg" src="/assets/logos/figmaLogo.png" alt="figma logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Figma</p>
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="techImg" src="/assets/logos/photoshopLogo.png" alt="photoshop logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Photoshop</p>
                                 </div>
@@ -37,13 +37,13 @@ export default function Tech() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="techImg" src="/assets/logos/adobeLogo.png" alt="adobe illustrator logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Adobe Illustrator</p>
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="techImg" src="/assets/logos/trelloLogo.png" alt="trello logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Trello</p>
                                 </div>
@@ -51,9 +51,9 @@ export default function Tech() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
-                                    <img className="techImg" src="/assets/logos/webflowLogo.png" alt="webflow logo"/>
-                                    <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>WebFlow</p>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
+                                    <img className="webflowImg" src="/assets/logos/webflowLogo.png" alt="webflow logo"/>
+                                    <p className="text-white fontSize24 techText ourFont" style={{marginTop: "40px"}}>WebFlow</p>
                                 </div>
                             </div>               
                         </div>
@@ -68,13 +68,13 @@ export default function Tech() {
                         </div>
                         <div className="row" style={{paddingTop: "50px"}}>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="techImg" src="/assets/logos/nextLogo.png" alt="next.js logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Next.js</p>
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="techImg" src="/assets/logos/vercelLogo.png" alt="vercel logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Vercel</p>
                                 </div>
@@ -82,13 +82,13 @@ export default function Tech() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="reactImg" src="/assets/logos/reactLogo.png" alt="react.js logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>React.js</p>
                                 </div>
                             </div>
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="bootstrapImg" src="/assets/logos/bootstrapLogo.svg" alt="bootstrap logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>BootStrap</p>
                                 </div>
@@ -96,13 +96,13 @@ export default function Tech() {
                         </div>
                         <div className="row">
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="nodeImg" src="/assets/logos/nodejsLogo.svg" alt="node.js logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>Node.js</p>
                                 </div>
                             </div>               
                             <div className="col-md-6 centerText">
-                                <div className="centerText" style={{padding: "10px"}}>
+                                <div className="centerText techContainer" style={{padding: "10px"}}>
                                     <img className="mongoDBImg" src="/assets/logos/mongodbLogo.png" alt="mongodb logo"/>
                                     <p className="text-white fontSize24 techText ourFont" style={{marginTop: "15px"}}>MongoDB</p>
                                 </div>
