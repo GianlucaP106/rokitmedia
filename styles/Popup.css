@@ -1,0 +1,33 @@
+
+
+.popup {
+    position: fixed;
+    width: 40%;
+    top: 20%;
+    left: 30%;
+    height: 70%;
+    background-color: white;
+    transition-property: transform;
+    transition: 500ms ease-in-out;
+    transform: scale(0.75);
+}
+
+.popupTransitionActive {
+    transform: scale(1);
+}
+
+.popupwindow {
+    position: relative;
+}
+.outPopup {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .popup {
+        width: 70%;
+        left: 15%;
+    }
+}

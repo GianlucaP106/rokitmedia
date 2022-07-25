@@ -1,0 +1,39 @@
+.webapplogin {
+    width: 600px;
+}
+
+.ecomIcon {
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.portalImg {
+    width: 630px;
+}
+
+.checkoutImg {
+    width: 50%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .portalImg {
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .webapplogin {
+        width: 300px;
+    }
+    .portalImg {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .checkoutImg {
+        width: 70%;
+    }
+}

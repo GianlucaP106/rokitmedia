@@ -3,7 +3,6 @@ import { useEffect } from "react";
 export default function Process() {
 
     function handleScroll1() {
-        console.log("scrolled2");
         const reveal = document.getElementById("rokitAnimation");
 
         const wHeight = window.innerHeight;

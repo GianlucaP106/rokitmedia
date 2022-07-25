@@ -6,6 +6,14 @@
     padding-top: 10px;
     width: 100px;
 }
+.nodeImg {  
+    padding-top: 10px;
+    width: 100px;
+}
+.reactImg {
+    padding-top: 10px;
+    width: 100px;
+}
 .figmaImg {
     padding-top: 10px;  
     width: 65px;
@@ -20,6 +28,19 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .nodeImg {  
+        padding-top: 10px;
+        width: 75px;
+    }
+    .reactImg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100px;
+    }
+    .bootstrapImg {
+        padding-top: 25px;
+        width: 120px;
+    }
     .techTitle {
         font-size: 24px;
     }
